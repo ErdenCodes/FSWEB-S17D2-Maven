@@ -1,4 +1,4 @@
-package com.workintech.s17d2;
+package com.workintech.s17d2.model;
 
 public enum Experience {
     JUNIOR,

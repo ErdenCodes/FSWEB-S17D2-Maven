@@ -1,15 +1,13 @@
 package com.workintech.s17d2.model;
 
-import com.workintech.s17d2.Experience;
-
 public class Developer {
 
     private int id ;
     private String name;
-    private int salary;
+    private double salary;
     private Experience experience;
 
-    public Developer( int id, String name, int salary,Experience experience) {
+    public Developer( int id, String name, double salary,Experience experience) {
 
         this.id = id;
         this.name = name;
@@ -41,11 +39,11 @@ public class Developer {
         this.name = name;
     }
 
-    public int getSalary() {
+    public double getSalary() {
         return salary;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 }
